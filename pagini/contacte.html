@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte</title>
+    <link rel="icon" href="../imagini/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/8a1f01fb65.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Van Cheff</div>
+        <div class="lista">
+            <a href="../index.html">Acasă</a>
+            <a href="produse.html">Produse</a>
+            <a href="contacte.html">Contacte</a>
+        </div>
+    </nav>
+    <header class="index">
+        <div class="info">
+            <h1>Contactează-mă dacă vrei</h1>
+            <p>Caută bine, și o să găsești pe undeva pe jos toate datele mele de contact, <br>sau, dacă tare vrei, ap
+                complectează formularul</p>
+            <button onclick="window.location.href='#formular'">Formular</button>
+        </div>
+    </header>
+
+    <!-- date de contact -->
+    <section class="date">
+        <a href="tel:+373 671 839 70">
+            <div class="data">
+                <div class="sus">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <p class="detail">+373 671 839 70</p>
+                </div>
+                <p>Sună-mă dacă ai vreo bârfă! Măcar că nu promit să răspund.</p>
+            </div>
+        </a>
+        <a href="mailto:mailto:adriana.van.cheef@gmail.com">
+            <div class="data">
+                <div class="sus">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <p class="detail">mailto:adriana.van.cheef@gmail.com</p>
+                </div>
+                <p>Trimite-mi un e-mail și îți voi răspunde cât mai lent posibil!</p>
+            </div>
+        </a>
+        <a target="_blank" href="https://maps.app.goo.gl/Z96FKKn9JJb6mTM57">
+            <div class="data">
+                <div class="sus">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="detail">Bădiceni, Soroca</p>
+                </div>
+                <p>Ți-am dat adresa mea, sper că fără de ceva bun in culiok nu vei veni la mine...</p>
+            </div>
+        </a>
+    </section>
+
+
+    <!-- trimmite mesaj -->
+    <section id="formular" class="contactare">
+        <form action="https://formspree.io/f/xdkegynr" method="POST" class="contact-left">
+            <h2>Contactează-mă</h2>
+            <input type="text" name="Nume" placeholder="Nume" required>
+            <input type="number" name="Număr" placeholder="Număr" required>
+            <input type="email" name="E-mail" placeholder="E-mail" required>
+            <textarea name="Mesaj" placeholder="Mesaj" required></textarea>
+            <button class="button" type="submit">Trimite</button>
+        </form>
+        <div class="celula-poza"></div>
+    </section>
+
+
+    <!-- gasitine pe google maps -->
+    <section class="maps">
+        <h2>Găsiți-ne pe Google Maps</h2>
+        <iframe class="harta"
+            src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19251.472095668727!2d28.0537928!3d48.20283775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ccc898de7853cf%3A0x712d2bbdd1c83a08!2zQsSDZGljZW5p!5e1!3m2!1sen!2s!4v1743093039264!5m2!1sen!2s"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <div class="comanda">
+            <h1>Comandă acum</h1>
+            <button onclick="window.location.href='produse.html'">Comandă</button>
+        </div>
+        <div class="jos">
+            <div class="info">
+                <h2>Van Cheff</h2>
+                <div class="social">
+                    <a target="_blank" href="https://www.facebook.com/share/1AEdQSjbrE/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/adrianushka07?igsh=Zm5kdDBrejJ1Mnlm">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a target="_blank" href="https://t.me/@adrianushkaa">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a target="_blank" href="https://www.tiktok.com/@aadddrriiannaa?_t=ZM-8v2JKecDQft&_r=1">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a target="_blank" href="https://www.snapchat.com/add/lemonsbitter?share_id=hapiojiLypo&locale=ro-MD">
+                        <i class="fa-brands fa-snapchat"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="detalii">
+                <div>
+                    <h3>Linkuri rapide</h3>
+                    <a href="../index.html">Acasă</a><br>
+                    <a href="produse.html">Produse</a><br>
+                    <a href="contacte.html">Contacte</a>
+                </div>
+                <div>
+                    <h3>Date de contact</h3>
+                    <a target="_blank" href="https://maps.app.goo.gl/Z96FKKn9JJb6mTM57">Bădiceni, Soroca</a><br>
+                    <a href="tel:+373 671 839 70">+373 671 839 70</a><br>
+                    <a href="mailto:adriana.van.cheef@gmail.com">adriana.van.cheef@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
